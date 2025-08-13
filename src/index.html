@@ -5,9 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
+    <link href="./css/home.css" rel="stylesheet" />
 </head>
 
-<body class="flex flex-col justify-center items-center gap-8">
+<body class="flex flex-col justify-center items-center">
     <!-- navabr section -->
     <section class="relative w-full flex justify-center">
         <nav
@@ -16,11 +17,11 @@
                 Bolt<span class="text-[#0D2F5D] font-semibold">PR</span>
             </span>
             <ul class="flex items-center gap-6">
-                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="#">Home</a></li>
-                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="#">About</a></li>
+                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/index.html">Home</a></li>
+                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/about.html">About</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="#">Services</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="#">Our Work</a></li>
-                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="#">Contact</a></li>
+                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/contact.html">Contact</a></li>
             </ul>
         </nav>
         <img src="../assets/hero.png" alt="Frame 1618872995" class="w-full h-screen object-cover">
@@ -68,7 +69,7 @@
         </div>
     </section>
     <!-- UGC -->
-    <section class="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
+    <section class="mt-6 relative w-full h-[600px] flex items-center justify-center overflow-hidden">
         <img src="../assets/ugc.png" alt="ugc" class="absolute inset-0 w-full h-full object-cover">
         <div class="absolute inset-0 bg-[#06172D] opacity-90"></div>
 
@@ -96,8 +97,8 @@
             </div>
         </div>
     </section>
-    <!-- UGC -->
-    <section class="relative w-full flex flex-col items-center justify-center gap-8 py-12">
+    <!-- our clients -->
+    <section class="mt-6 w-full flex flex-col items-center justify-center gap-8 py-12">
         <div class="flex flex-col items-center text-center px-4">
             <span class="text-3xl font-bold text-[#0D2F5D]">Our Clients</span>
             <span class="mt-2 font-medium text-[#4F555D] max-w-2xl">
@@ -116,60 +117,164 @@
     </section>
     <!-- Testimonials -->
     <section
-        class="relative w-full flex flex-col items-center gap-8 py-12 bg-[linear-gradient(180deg,rgba(202,240,248,0)_0%,rgba(202,240,248,0.5)_12%,rgba(202,240,248,0)_70%)]">
+        class="mt-6 relative w-full flex flex-col items-center gap-8 py-12 bg-[linear-gradient(180deg,rgba(202,240,248,0)_0%,rgba(202,240,248,0.5)_12%,rgba(202,240,248,0)_70%)]">
         <h2 class="text-3xl font-semibold text-[#1C1E21] text-center">
             Testimonials That <span class="text-[#0D2F5D]">Matter</span>
         </h2>
 
-        <div class="flex overflow-x-auto snap-x snap-mandatory gap-6 px-4 max-w-6xl w-full scrollbar-hide">
-            <div class="flex-shrink-0 snap-center flex flex-col gap-4 p-6 bg-white rounded-xl shadow w-[720px]">
+        <div id="testimonial-container"
+            class="flex flex-nowrap items-center overflow-x-auto gap-6 px-6 max-w-6xl w-full scrollbar-hide h-323">
+            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
                 <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-gray-700 leading-relaxed">
-                    It’s been more than a year since I started working with Bolt PR. The
-                    experience has been enthralling for our brand, from easy communications
-                    to quick deliverables, Team Bolt PR has provided us exemplary service.
-                    <br /><br />
+                <p class="text-[#4F555D] text-sm leading-relaxed">
+                    It’s been more than a year since I started working with Bolt PR. The experience has been
+                    enthralling, from easy communications to quick deliverables.
+                    <br><br>
                     Kudos to your impeccable work. Lots of love!
                 </p>
-                <span class="font-semibold text-[#1C1E21]"> Dimple Katara, Founder </span>
-                <div
-                    class="mt-2 w-24 h-24 rounded-full overflow-hidden border border-gray-200 flex items-center justify-center bg-white">
-                    <img src="../assets/dimplestidio.svg" alt="Dimple Stidio Logo"
-                        class="w-full h-full object-contain p-2" />
-                </div>
+                <span class="font-semibold text-[#1D4E8F]">Dimple Katara, Founder</span>
+                <img src="../assets/dimplestidio.svg" alt="Dimple Stidio Logo" width="133" height="133" />
             </div>
-            <div class="flex-shrink-0 snap-center flex flex-col gap-4 p-6 bg-white rounded-xl shadow w-[720px]">
+            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
                 <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-gray-700 leading-relaxed">
-                    Bolt PR has been a game-changer for us, significantly enhancing our
-                    brand's visibility through well-executed celebrity endorsements.
-                    <br /><br />
-                    The team stands out for their deep understanding of client needs and
-                    commitment to delivering exceptional results within tight deadlines.
+                <p class="text-[#4F555D] text-sm leading-relaxed">
+                    Bolt PR has been a game-changer for us, enhancing our brand's visibility through innovative creative
+                    shoots and strategic endorsements.
                 </p>
-                <span class="font-semibold text-[#1C1E21]"> Samik Sarkar, Founder </span>
-                <div
-                    class="mt-2 w-24 h-24 rounded-full overflow-hidden border border-gray-200 flex items-center justify-center bg-white">
-                    <img src="../assets/rustorange.svg" alt="Rustorange Logo"
-                        class="w-full h-full object-contain p-2" />
-                </div>
+                <span class="font-semibold text-[#1D4E8F]">Samik Sarkar, Founder</span>
+                <img src="../assets/rustorange.svg" alt="Rustorange Logo" width="133" height="133" />
             </div>
-            <div class="flex-shrink-0 snap-center flex flex-col gap-4 p-6 bg-white rounded-xl shadow w-[720px]">
+            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
                 <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-gray-700 leading-relaxed">
-                    Another testimonial content here for demonstration purposes.
+                <p class="text-[#4F555D] text-sm leading-relaxed">
+                    I've worked with Bolt PR for four years, and their dedication, creativity, and professionalism are
+                    unmatched.
                 </p>
-                <span class="font-semibold text-[#1C1E21]"> Another Founder </span>
-                <div
-                    class="mt-2 w-24 h-24 rounded-full overflow-hidden border border-gray-200 flex items-center justify-center bg-white">
-                    <img src="../assets/rustorange.svg" alt="Rustorange Logo"
-                        class="w-full h-full object-contain p-2" />
-                </div>
+                <span class="font-semibold text-[#1D4E8F]">Pari Choudhary, Founder</span>
+                <img src="../assets/bunnai.svg" alt="Bunnai Logo" width="133" height="133" />
+            </div>
+            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
+                <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
+                <p class="text-[#4F555D] text-sm leading-relaxed">
+                    Working with Bolt PR for our photoshoots and promotions has been a pleasure. They always exceed
+                    expectations.
+                </p>
+                <span class="font-semibold text-[#1D4E8F]">Vandana Talwar, Founder</span>
+                <img src="../assets/prevasu.svg" alt="Prevasu Logo" width="133" height="133" />
             </div>
         </div>
     </section>
+    <!-- sub footer -->
+    <section class="mt-6 w-full flex flex-col items-center justify-center gap-8 py-12">
+        <span class="flex flex-col items-center font-bold text-[#1C1E21] text-4xl">
+            <span>Ready to start</span>
+            <span>Your <span class="text-[#227BF1]">story</span> with us?</span>
+        </span>
+    </section>
+
+    <!-- footer -->
+    <!-- <section class="mt-6 w-full flex flex-col items-center justify-center gap-8 py-12 bg-[#0D2F5D]">
+        <div>
+            <span>BoltPR</span>
+            <span>Mumbai</span>
+            <span>New York</span>
+        </div>
+        <div>
+            <div>
+                <span>Link</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>Contact</span>
+                <ul>
+                    <span>+91 8574745847</span>
+                    <span>+91965874542</span>
+                </ul>
+            </div>
+            <div>
+                <span>Emails</span>
+                <ul>
+                    <span>exapmle@gmail.com</span>
+                    <span>test@gmail.com</span>
+                </ul>
+            </div>
+            <div>
+                <span>Socials</span>
+                <ul>
+                    <span>@theboltpr</span>
+                    <span>@ugcbyboltpr</span>
+                </ul>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="mt-6 w-full flex flex-col items-center gap-8 py-12 bg-[#0D2F5D] text-white">
+
+        <div class="w-full max-w-6xl flex justify-between gap-8 px-6 text-xl">
+            <div class="flex flex-col gap-2">
+                <span class="font-semibold">BoltPR</span>
+                <div class="flex flex-col gap-2 text-sm opacity-80">
+                    <span class="flex items-center">
+                        <img src="../assets/location.svg" alt="location">
+                        <span>Mumbai</span>
+                    </span>
+                    <span class="flex items-center">
+                        <img src="../assets/location.svg" alt="location">
+                        <span>New York</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-2">
+                <span class="block font-semibold mb-3 text-[#227BF1]">Links</span>
+                <ul class="flex flex-col gap-2">
+                    <li><a href="#" class="hover:underline text-[#D9D9D9]">Home</a></li>
+                    <li><a href="#" class="hover:underline text-[#D9D9D9]">About</a></li>
+                    <li><a href="#" class="hover:underline text-[#D9D9D9]">Services</a></li>
+                    <li><a href="#" class="hover:underline text-[#D9D9D9]">Our Work</a></li>
+                    <li><a href="#" class="hover:underline text-[#D9D9D9]">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-2">
+                <span class="block font-semibold mb-3 text-[#227BF1]">Contact</span>
+                <ul class="space-y-2">
+                    <li class="text-[#D9D9D9]">+91 8574745847</li>
+                    <li class="text-[#D9D9D9]">+91 965874542</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-2">
+                <span class="block font-semibold mb-3 text-[#227BF1]">Emails</span>
+                <ul class="space-y-2">
+                    <li class="text-[#D9D9D9]">example@gmail.com</li>
+                    <li class="text-[#D9D9D9]">test@gmail.com</li>
+                </ul>
+            </div>
+            <div>
+                <span class="block font-semibold mb-3 text-[#227BF1]">Socials</span>
+                <ul class="space-y-2">
+                    <li class="text-[#D9D9D9]"> <span class="flex items-center">
+                            <img src="../assets/social.svg" alt="social"><span>@theboltpr</span></span></li>
+                    <li class="text-[#D9D9D9]"> <span class="flex items-center">
+                            <img src="../assets/social.svg" alt="social"><span>@ugcbyboltpr</span></span></li>
+                </ul>
+            </div>
+        </div>
 
 
+        <div class="max-w-6xl w-full text-center text-xs opacity-60 mt-6 flex justify-between">
+            <span class="flex items-center gap-4"><span>© 2025 BoltPR</span><span>|</span><span>All rights reserved.</span></span>
+            <span class="flex items-center gap-4">
+                <span>Terms of Services</span>
+                <span>Privacy Policy</span>
+            </span>
+        </div>
+    </section>
 
 
     <style>
@@ -182,6 +287,24 @@
             scrollbar-width: none;
         }
     </style>
+
+    <script>
+        const container = document.getElementById('testimonial-container');
+        let scrollSpeed = 0.5;
+
+        function autoScroll() {
+            container.scrollLeft += scrollSpeed;
+
+            if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+                container.scrollLeft = 0;
+            }
+
+            requestAnimationFrame(autoScroll);
+        }
+
+        autoScroll();
+    </script>
+
 
 </body>
 
