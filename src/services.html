@@ -10,14 +10,14 @@
 
 <body class="flex flex-col justify-center items-center">
     <!-- navabr section -->
-    <section class="relative w-full flex justify-center">
+     <section class="relative w-full flex justify-center">
         <nav
-            class="flex justify-between items-center  w-full max-w-[-webkit-fill-available] md:max-w-3xl lg:max-w-6xl mx-6 md:mx-0 px-6 md:px-[40px] py-[12px] border border-white rounded-[16px] fixed top-[8px] md:top-[24px] bg-white shadow-lg z-50">
-            <img src="../assets/companylogoDark.svg" alt="company-logo-dark" class="w-[154px] h-[40px]">
+            class="flex justify-between items-center  w-full max-w-[-webkit-fill-available] md:max-w-3xl lg:max-w-[calc(100%-480px)]  mx-6 md:mx-0 px-6 md:pl-[16px] md:pr-[40px] py-[18px] border border-white rounded-[16px] fixed top-[8px] md:top-[24px] bg-white shadow-lg z-50">
+            <img src="../assets/companylogoDark.svg" alt="company-logo-dark" class="w-[9rem] h-[2rem]">
             <ul class="hidden md:flex items-center gap-6">
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/index.html">Home</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/about.html">About</a></li>
-                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/services.html">Services</a></li>
+                <li><a class="text-sm hover:text-[#227BF1] font-semibold text-[#227BF1]" href="/src/services.html">Services</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/ourwork.html">Our Work</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/contact.html">Contact</a></li>
             </ul>
@@ -38,11 +38,11 @@
             </ul>
         </div>
 
-        <img src="../assets/hero.png" alt="Frame 1618872995" class="w-full h-screen object-cover">
+        <img src="../assets/services.png" alt="Frame 1618872995" class="w-full h-[50%] object-cover">
     </section>
     <!-- Narrative -->
-    <section class="mt-6 flex flex-col max-w-6xl w-full px-6 text-center md:text-left">
-        <p class="mt-6 text-[#4F555D] font-medium text-base md:text-lg leading-relaxed">
+    <section class="mt-6 flex flex-col max-w-6xl w-full px-4 md:px-14 text-center md:text-left ">
+        <p class="mt-12 md:mt-20 text-[#4F555D] font-medium text-sm md:text-2xl text-justify  leading-[34px] font-inter">
             At Bolt PR, we help brands grow their presence in ways that are thoughtful, strategic, and culturally
             aligned. From establishing credibility in the media to shaping how your brand is seen online and experienced
             by your audience, we offer a range of services designed to support long-term visibility and relevance.
@@ -51,262 +51,323 @@
         </p>
     </section>
 
-    <section class="mt-6 w-full p-6 mx-auto bg-[#EDF4FC]">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center md:text-left mb-8">
-                <h2 class="font-semibold text-4xl text-[#1C1E21]">
-                    Services Designed Around Your Brand
+    <section class="mt-12 md:mt-20 w-full p-4 md:p-6 mx-auto bg-[#EDF4FC]">
+        <div class="max-w-6xl mx-auto px-14">
+            <div class="text-left mb-6 md:mb-8">
+                <h2
+                    class="font-medium text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-[#1C1E21] leading-tight font-inter mt-4 md:mt-6 font-semibold">
+                    Services Designed Around <span class="font-playfair italic text-[#0D2F5D] font-semibold">Your
+                        Brand</span>
                 </h2>
-                <p class="font-medium text-[#4F555D] mt-2">
+                <p class="font-medium text-[#4F555D] mt-3 md:mt-4 text-sm md:text-base lg:text-lg xl:text-2xl leading-relaxed font-inter">
                     What kind of visibility are you building, and is it taking you where you want to go?
                 </p>
             </div>
 
-            <div class="columns-1 sm:columns-2 gap-6 space-y-6">
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Media Relations</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
+            <div class="columns-1 md:columns-2 gap-4 md:gap-6 space-y-4 md:space-y-5">
+                <div class="border-2 border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Media Relations</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
                             We build and maintain strong relationships with editors, journalists, and publications to
                             help brands earn credible long-term press coverage. This includes shaping the brand
                             narrative and positioning to ensure every story feels aligned, relevant, and timely.
                         </p>
                     </div>
 
-                    <img src="/assets/services/services-1.png" alt="Media Relations"
-                        class="w-full h-[500px] rounded-b-[32px]">
+                        <div class="relative w-full">
+                            <img src="/assets/services/services-1.png" alt="Media Relations"
+                                class="w-full h-[300px] md:h-[400px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                            <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                        </div>
                 </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Influencer and Creator Collaborations</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We manage creator campaigns that feel organic, on-brand, and platform-appropriate. From
-                            outreach to execution, every collaboration is designed to reflect the brand’s tone and build
-                            genuine engagement.
-                        </p>
-                    </div>
-
-                    <img src="/assets/services/services-2.png" alt="Content Strategy"
-                        class="w-full h-[350px] rounded-b-[32px]">
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Celebrity Gifting and Seeding Programs</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Celebrity Gifting and Seeding Programs</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
                             We place your products in the hands of high-visibility personalities through thoughtful and
                             well-timed gifting. The focus is on creating organic exposure that feels credible and
                             aligned with your audience.
                         </p>
                     </div>
-                    <img src="/assets/services/services-3.png" alt="Digital Campaigns"
-                        class="w-full h-[350px] rounded-b-[32px]">
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Soft PR and Editorial Placements</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We secure subtle brand mentions, feature opportunities, and editorial inclusions that
-                            contribute to long-term visibility. This approach focuses on presence that feels earned
-                            rather than promoted.
-                        </p>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-3.png" alt="Content Strategy"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
                     </div>
-                    <img src="/assets/services/services-4.png" alt="Social Media Management"
-                        class="w-full h-[350px] rounded-b-[32px]">
-
                 </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Content Production and Storytelling</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We create content that reflects the brand’s identity and speaks to its audience through
-                            consistent, story-driven visuals. Whether it is for digital use or social media, every asset
-                            is designed to feel relevant and true to the brand’s voice.
-                        </p>
-                    </div>
-
-                    <img src="/assets/services/services-5.png" alt="SEO Optimization"
-                        class="w-full h-[350px] rounded-b-[32px]">
-
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Global Production Shoots</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We plan and manage shoots in international locations that align with the brand’s mood and
-                            aspirations. From sourcing locations and talent to final execution, we deliver high-quality
-                            content that supports global positioning.
-                        </p>
-                    </div>
-
-                    <img src="/assets/services/services-6.png" alt="Email Marketing"
-                        class="w-full h-[350px] rounded-b-[32px]">
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Campaign Production</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We oversee full-scale campaign shoots from concept and casting to production and delivery.
-                            These are built to support new collections, product launches, or seasonal storytelling in a
-                            way that feels timely and brand-aligned.
-                        </p>
-                    </div>
-
-                    <img src="/assets/services/services-7.png" alt="Email Marketing"
-                        class="w-full h-[350px] rounded-b-[32px]">
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Social Media Management</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
-                            We manage a brand’s voice across social platforms with consistent messaging and a clear
-                            posting schedule. We spark genuine audience interactions that build loyalty and drive
-                            measurable engagement.
-                        </p>
-                    </div>
-
-                    <img src="/assets/services/services-8.png" alt="Email Marketing"
-                        class="w-full h-[350px] rounded-b-[32px]">
-                </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Brand Activation</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Brand Activation</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
                             We develop brand-first activations that drive engagement, reinforce positioning, and create
                             lasting moments. These often take the form of curated on-ground events supported by digital
                             elements to expand reach.
                         </p>
                     </div>
-
-                    <img src="/assets/services/services-9.png" alt="Email Marketing"
-                        class="w-full h-[350px] rounded-b-[32px]">
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-5.png" alt="Digital Campaigns"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
                 </div>
-                <div class="border border-white rounded-[32px] bg-white flex flex-col">
-                    <div class="p-6 flex flex-col flex-grow">
-                        <h3 class="text-[#227BF1] font-medium text-lg">Strategic Alliances and Partnerships</h3>
-                        <p class="text-[#4F555D] font-medium mt-2">
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Campaign Production</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We oversee full-scale campaign shoots from concept and casting to production and delivery.
+                            These are built to support new collections, product launches, or seasonal storytelling in a
+                            way that feels timely and brand-aligned.
+                        </p>
+                    </div>
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-6.png" alt="Social Media Management"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Content Production and Storytelling</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We create content that reflects the brand's identity and speaks to its audience through
+                            consistent, story-driven visuals. Whether it is for digital use or social media, every asset
+                            is designed to feel relevant and true to the brand's voice.
+                        </p>
+                    </div>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-8.png" alt="SEO Optimization"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Influencer and Creator Collaborations</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We manage creator campaigns that feel organic, on-brand, and platform-appropriate. From
+                            outreach to execution, every collaboration is designed to reflect the brand's tone and build
+                            genuine engagement.
+                        </p>
+                    </div>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-5.png" alt="Email Marketing"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Soft PR and Editorial Placements</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We secure subtle brand mentions, feature opportunities, and editorial inclusions that
+                            contribute to long-term visibility. This approach focuses on presence that feels earned
+                            rather than promoted.
+                        </p>
+                    </div>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-10.png" alt="Email Marketing"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Global Production Shoots</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We plan and manage shoots in international locations that align with the brand's mood and
+                            aspirations. From sourcing locations and talent to final execution, we deliver high-quality
+                            content that supports global positioning.
+                        </p>
+                    </div>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-6.png" alt="Email Marketing"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Social Media Management</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
+                            We manage a brand's voice across social platforms with consistent messaging and a clear
+                            posting schedule. We spark genuine audience interactions that build loyalty and drive
+                            measurable engagement.
+                        </p>
+                    </div>
+
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-7.png" alt="Email Marketing"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
+                </div>
+                <div class="border border-white rounded-[16px] md:rounded-[32px] bg-white flex flex-col shadow-lg">
+                    <div class="p-4 md:px-10 md:pt-10 md:pb-10 flex flex-col flex-grow">
+                        <h3 class="text-[#227BF1] font-medium text-lg md:text-xl lg:text-[24px]">Strategic Alliances and Partnerships</h3>
+                        <p class="text-[#4F555D] font-[500] mt-2 text-sm md:text-md text-justify">
                             We help brands identify and build collaborations that extend relevance and cultural
                             resonance. These include brand-to-brand or brand-to-personality alignments that feel
                             intentional and mutually impactful.
                         </p>
                     </div>
 
-                    <img src="/assets/services/services-10.png" alt="Email Marketing"
-                        class="w-full h-[350px] rounded-b-[32px]">
+                    <div class="relative w-full">
+                        <img src="/assets/services/services-8.png" alt="Email Marketing"
+                            class="w-full h-[250px] md:h-[300px] lg:h-[350px] rounded-b-[16px] md:rounded-b-[32px] filter grayscale">
+                        <div class="pointer-events-none absolute left-0 bottom-0 w-full h-1/2 rounded-b-[16px] md:rounded-b-[32px]" style="background: linear-gradient(180deg,rgba(13,47,93,0) 0%,rgba(13,47,93,0.7) 100%);"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- UGC -->
-    <section class="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
-        <img src="../assets/ugc.png" alt="ugc" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-[#06172D] opacity-90"></div>
-
-        <div class="relative z-10 w-full h-screen max-w-6xl px-6 py-12">
-            <div class="w-full sm:max-w-2xl">
-                <h2 class="font-semibold text-white text-2xl md:text-4xl mb-4">
-                    UGC <span>By <span class="text-[#227BF1]">BoltPR</span></span>
+    <section class="relative w-full h-[500px] md:h-[600px] flex items-center overflow-hidden border border-[#227BF1]">
+        <img src="../assets/servicesugc.png" alt="ugc" class="absolute inset-0 w-full h-full object-cover">
+        <div class="relative z-10 w-full px-4 md:px-6 py-8 md:py-12 flex items-center">
+            <div class="max-w-6xl px-14 mx-auto">
+                <h2 class="font-semibold text-white text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-inter mb-6 md:mb-8">
+                    UGC by <span class="font-playfair italic text-[#ffffff] font-medium">Bolt</span><span
+                        class="font-playfair font-semibold text-[#ffffff]">PR</span>
                 </h2>
-                <p class="font-medium text-sm sm:text-lg text-white mb-3 sm:mb-6">
-                    User generated content is no longer optional for brands aiming to stay relevant. At Bolt PR, we have
-                    built a dedicated vertical for UGC that blends strategy with authenticity. We collaborate with a
-                    curated pool of creators and everyday users to develop content that feels relatable, trusted, and
-                    aligned with your brand voice. From product highlights to natural reviews, we focus on content that
-                    drives real attention and performance across digital platforms.
-                </p>
-                <p class="font-medium text-sm sm:text-lg text-white mb-3 sm:mb-6">
-                    Our approach is full circle. We manage everything from sourcing creators and briefing them to
-                    overseeing shoots and final delivery. Each piece of content is tailored for platform, audience, and
-                    objective, ensuring it lands where it matters most. UGC done right does not just support campaigns,
-                    it becomes a part of how people experience the brand.
-                </p>
 
-                <button
-                    class="inline-flex items-center gap-2 border border-white text-white px-3 py-2 rounded-lg hover:bg-white hover:text-[#06172D] transition cursor-pointer">
-                    Explore our work
-                    <img src="../assets/arrow.svg" alt="arrow" class="w-4 h-4">
-                </button>
+                <h4 class="text-white text-sm md:text-base lg:text-xl text-justify mb-4 md:mb-6">
+                   User generated content is no longer optional for brands aiming to stay relevant. At Bolt PR, we have built a dedicated vertical for UGC that blends strategy with authenticity. We collaborate with a curated pool of creators and everyday users to develop content that feels relatable, trusted, and aligned with your brand voice. From product highlights to natural reviews, we focus on content that drives real attention and performance across digital platforms.
+                </h4>
+
+                <h4 class="text-white text-sm md:text-base lg:text-xl text-justify mb-6 md:mb-8">
+                   Our approach is full circle. We manage everything from sourcing creators and briefing them to overseeing shoots and final delivery. Each piece of content is tailored for platform, audience, and objective, ensuring it lands where it matters most. UGC done right does not just support campaigns, it becomes a part of how people experience the brand.
+                </h4>
+
+                <div class="mt-3 md:mt-4">
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-4 border border-white rounded-xl bg-transparent text-white font-inter font-normal text-base leading-6 transition duration-200 gap-2 hover:bg-white hover:bg-opacity-10 focus:outline-none"
+                        style="box-shadow:none;">
+                        Explore Our Work
+                        <svg width="20" height="20" class="ml-1" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 10H15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11 6L15 10L11 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
 
     <!-- sub footer -->
-    <section class="mt-6 w-full text-center px-6 py-12">
-        <span class="flex flex-col items-center font-bold text-[#1C1E21] text-4xl">
-            <span>Ready to start</span>
-            <span>Your <span class="text-[#227BF1]">story</span> with us?</span>
-        </span>
+    <section class="mt-6 w-full text-center px-4 md:px-6 py-8 md:py-12 flex items-center justify-center ">
+        <div class="flex flex-col items-center gap-6 md:gap-8">
+            <span
+                class="flex flex-col items-center font-bold text-[#1C1E21] text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-inter leading-tight">
+                <span>Ready to start</span>
+                <span>Your <span class="text-[#227BF1] font-playfair italic">story</span> with us?</span>
+            </span>
+            <div class="mt-2 md:mt-4">
+                <a href="#"
+                    class="inline-flex items-center px-4 md:px-6 py-2 md:py-3 rounded-xl bg-[#0D2F5D] text-white font-medium transition duration-300 gap-2 hover:bg-[#405573] text-sm md:text-base"
+                    style="box-shadow: 
+                      0px 2px 4px rgba(28, 30, 33, 0.25), 
+                      0px 16px 30px rgba(28, 30, 33, 0.35);">
+                    Let's Connect
+                    <svg width="20" height="20" class="md:w-6 md:h-6" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
     </section>
+
     <!-- footer -->
     <section class="w-full flex justify-center bg-[#0D2F5D] text-white">
-        <div class="max-w-6xl w-full flex flex-col items-center gap-8 py-12 px-6">
-            <div class="w-full flex flex-col md:flex-row gap-8 md:gap-28 text-xl">
-                <div class="flex flex-col gap-4">
-                    <!-- <span class="font-semibold">BoltPR</span> -->
-                    <img src="../assets/companylogo.svg" alt="company-logo" class="w-[231px] h-[60px]">
-                    <div class="flex flex-col gap-2 text-sm opacity-80">
-                        <span class="flex items-center gap-1">
-                            <img src="../assets/location.svg" alt="location" class="w-[24px] h-[24px]">
-                            <span class="font-semibold text-sm">Mumbai</span>
+        <div class="max-w-6xl w-full flex flex-col items-center gap-0 py-0 px-0">
+            <div class="w-full flex flex-col lg:flex-row gap-8 lg:gap-12 text-base pt-14 pb-8 px-4 md:px-8 lg:px-14">
+                <!-- Logo and Locations Section -->
+                <div class="flex flex-col gap-6 w-full lg:w-auto lg:min-w-[280px]">
+                    <img src="../assets/companylogo.svg" alt="company-logo" class="w-[160px] md:w-[180px] h-auto mb-2">
+                    <div class="flex flex-col gap-3 text-xs opacity-80">
+                        <span class="flex items-center gap-2">
+                            <img src="../assets/locationfooter.svg" alt="location" class="w-[16px] h-[16px] md:w-[18px] md:h-[18px]">
+                            <span class="font-semibold text-xs md:text-sm">Mumbai</span>
                         </span>
-                        <span class="flex items-center gap-1">
-                            <img src="../assets/location.svg" alt="location" class="w-[24px] h-[24px]">
-                            <span class="font-semibold text-sm">New York</span>
+                        <span class="flex items-center gap-2">
+                            <img src="../assets/locationfooter.svg" alt="location" class="w-[16px] h-[16px] md:w-[18px] md:h-[18px]">
+                            <span class="font-semibold text-xs md:text-sm">New York</span>
                         </span>
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-xl">
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-[#227BF1] text-lg">Links</span>
-                        <ul class="flex flex-col gap-4">
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Home</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">About</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Services</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Our Work</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Contact</a></li>
+                <!-- Links and Contact Information Grid -->
+                <div class="w-full grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 lg:gap-12 text-base">
+                    <!-- Links -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Links</span>
+                        <ul class="flex flex-col gap-2">
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Home</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">About</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Services</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Our Work</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Contact</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="font-semibold text-[#D9D9D9]">+91 8574745847</li>
-                            <li class="font-semibold text-[#D9D9D9]">+91 8574854757</li>
+                    <!-- Contact Number -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Contact Number</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">+91 96199 17211</li>
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">+91 87793 79967</li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Emails</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="font-semibold text-[#D9D9D9]">example@gmail.com</li>
-                            <li class="font-semibold text-[#D9D9D9]">test@gmail.com</li>
+                    <!-- Emails -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Emails</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">team@boltpr.in</li>
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">ananya@boltpr.in</li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Socials</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="text-[#D9D9D9] flex items-center gap-1">
-                                <img src="../assets/social.svg" alt="social" class="w-[34px] h-[24px]">
+                    <!-- Socials -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Socials</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="text-[#D9D9D9] flex items-center gap-2 text-xs md:text-sm">
+                                <svg width="16" height="16" class="md:w-[18px] md:h-[18px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.0276 2C14.1526 2.003 14.7236 2.009 15.2166 2.023L15.4106 2.03C15.6346 2.038 15.8556 2.048 16.1226 2.06C17.1866 2.11 17.9126 2.278 18.5496 2.525C19.2096 2.779 19.7656 3.123 20.3216 3.678C20.8303 4.17773 21.2238 4.78247 21.4746 5.45C21.7216 6.087 21.8896 6.813 21.9396 7.878C21.9516 8.144 21.9616 8.365 21.9696 8.59L21.9756 8.784C21.9906 9.276 21.9966 9.847 21.9986 10.972L21.9996 11.718V13.028C22.002 13.7574 21.9944 14.4868 21.9766 15.216L21.9706 15.41C21.9626 15.635 21.9526 15.856 21.9406 16.122C21.8906 17.187 21.7206 17.912 21.4746 18.55C21.2238 19.2175 20.8303 19.8223 20.3216 20.322C19.8219 20.8307 19.2171 21.2242 18.5496 21.475C17.9126 21.722 17.1866 21.89 16.1226 21.94L15.4106 21.97L15.2166 21.976C14.7236 21.99 14.1526 21.997 13.0276 21.999L12.2816 22H10.9726C10.2429 22.0026 9.51312 21.9949 8.78359 21.977L8.58959 21.971C8.3522 21.962 8.11487 21.9517 7.87759 21.94C6.81359 21.89 6.08759 21.722 5.44959 21.475C4.78242 21.2241 4.17804 20.8306 3.67859 20.322C3.16954 19.8224 2.7757 19.2176 2.52459 18.55C2.27759 17.913 2.10959 17.187 2.05959 16.122L2.02959 15.41L2.02459 15.216C2.00616 14.4868 1.99782 13.7574 1.99959 13.028V10.972C1.99682 10.2426 2.00416 9.5132 2.02159 8.784L2.02859 8.59C2.03659 8.365 2.04659 8.144 2.05859 7.878C2.10859 6.813 2.27659 6.088 2.52359 5.45C2.77529 4.7822 3.16982 4.17744 3.67959 3.678C4.17875 3.16955 4.78278 2.77607 5.44959 2.525C6.08759 2.278 6.81259 2.11 7.87759 2.06C8.14359 2.048 8.36559 2.038 8.58959 2.03L8.78359 2.024C9.51278 2.00623 10.2422 1.99857 10.9716 2.001L13.0276 2ZM11.9996 7C10.6735 7 9.40174 7.52678 8.46406 8.46447C7.52638 9.40215 6.99959 10.6739 6.99959 12C6.99959 13.3261 7.52638 14.5979 8.46406 15.5355C9.40174 16.4732 10.6735 17 11.9996 17C13.3257 17 14.5974 16.4732 15.5351 15.5355C16.4728 14.5979 16.9996 13.3261 16.9996 12C16.9996 10.6739 16.4728 9.40215 15.5351 8.46447C14.5974 7.52678 13.3257 7 11.9996 7ZM11.9996 9C12.3936 8.99993 12.7837 9.07747 13.1477 9.22817C13.5117 9.37887 13.8424 9.5998 14.1211 9.87833C14.3997 10.1569 14.6207 10.4875 14.7715 10.8515C14.9224 11.2154 15 11.6055 15.0001 11.9995C15.0002 12.3935 14.9226 12.7836 14.7719 13.1476C14.6212 13.5116 14.4003 13.8423 14.1218 14.121C13.8432 14.3996 13.5126 14.6206 13.1486 14.7714C12.7847 14.9223 12.3946 14.9999 12.0006 15C11.2049 15 10.4419 14.6839 9.87927 14.1213C9.31666 13.5587 9.00059 12.7956 9.00059 12C9.00059 11.2044 9.31666 10.4413 9.87927 9.87868C10.4419 9.31607 11.2049 9 12.0006 9M17.2506 5.5C16.9191 5.5 16.6011 5.6317 16.3667 5.86612C16.1323 6.10054 16.0006 6.41848 16.0006 6.75C16.0006 7.08152 16.1323 7.39946 16.3667 7.63388C16.6011 7.8683 16.9191 8 17.2506 8C17.5821 8 17.9001 7.8683 18.1345 7.63388C18.3689 7.39946 18.5006 7.08152 18.5006 6.75C18.5006 6.41848 18.3689 6.10054 18.1345 5.86612C17.9001 5.6317 17.5821 5.5 17.2506 5.5Z" fill="#227BF1" />
+                                </svg>
                                 <span class="font-semibold text-[#D9D9D9]">@theboltpr</span>
                             </li>
-                            <li class="text-[#D9D9D9] flex items-center gap-1">
-                                <img src="../assets/social.svg" alt="social" class="w-[34px] h-[24px]">
+                            <li class="text-[#D9D9D9] flex items-center gap-2 text-xs md:text-sm">
+                                <svg width="16" height="16" class="md:w-[18px] md:h-[18px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.0276 2C14.1526 2.003 14.7236 2.009 15.2166 2.023L15.4106 2.03C15.6346 2.038 15.8556 2.048 16.1226 2.06C17.1866 2.11 17.9126 2.278 18.5496 2.525C19.2096 2.779 19.7656 3.123 20.3216 3.678C20.8303 4.17773 21.2238 4.78247 21.4746 5.45C21.7216 6.087 21.8896 6.813 21.9396 7.878C21.9516 8.144 21.9616 8.365 21.9696 8.59L21.9756 8.784C21.9906 9.276 21.9966 9.847 21.9986 10.972L21.9996 11.718V13.028C22.002 13.7574 21.9944 14.4868 21.9766 15.216L21.9706 15.41C21.9626 15.635 21.9526 15.856 21.9406 16.122C21.8906 17.187 21.7206 17.912 21.4746 18.55C21.2238 19.2175 20.8303 19.8223 20.3216 20.322C19.8219 20.8307 19.2171 21.2242 18.5496 21.475C17.9126 21.722 17.1866 21.89 16.1226 21.94L15.4106 21.97L15.2166 21.976C14.7236 21.99 14.1526 21.997 13.0276 21.999L12.2816 22H10.9726C10.2429 22.0026 9.51312 21.9949 8.78359 21.977L8.58959 21.971C8.3522 21.962 8.11487 21.9517 7.87759 21.94C6.81359 21.89 6.08759 21.722 5.44959 21.475C4.78242 21.2241 4.17804 20.8306 3.67859 20.322C3.16954 19.8224 2.7757 19.2176 2.52459 18.55C2.27759 17.913 2.10959 17.187 2.05959 16.122L2.02959 15.41L2.02459 15.216C2.00616 14.4868 1.99782 13.7574 1.99959 13.028V10.972C1.99682 10.2426 2.00416 9.5132 2.02159 8.784L2.02859 8.59C2.03659 8.365 2.04659 8.144 2.05859 7.878C2.10859 6.813 2.27659 6.088 2.52359 5.45C2.77529 4.7822 3.16982 4.17744 3.67959 3.678C4.17875 3.16955 4.78278 2.77607 5.44959 2.525C6.08759 2.278 6.81259 2.11 7.87759 2.06C8.14359 2.048 8.36559 2.038 8.58959 2.03L8.78359 2.024C9.51278 2.00623 10.2422 1.99857 10.9716 2.001L13.0276 2ZM11.9996 7C10.6735 7 9.40174 7.52678 8.46406 8.46447C7.52638 9.40215 6.99959 10.6739 6.99959 12C6.99959 13.3261 7.52638 14.5979 8.46406 15.5355C9.40174 16.4732 10.6735 17 11.9996 17C13.3257 17 14.5974 16.4732 15.5351 15.5355C16.4728 14.5979 16.9996 13.3261 16.9996 12C16.9996 10.6739 16.4728 9.40215 15.5351 8.46447C14.5974 7.52678 13.3257 7 11.9996 7ZM11.9996 9C12.3936 8.99993 12.7837 9.07747 13.1477 9.22817C13.5117 9.37887 13.8424 9.5998 14.1211 9.87833C14.3997 10.1569 14.6207 10.4875 14.7715 10.8515C14.9224 11.2154 15 11.6055 15.0001 11.9995C15.0002 12.3935 14.9226 12.7836 14.7719 13.1476C14.6212 13.5116 14.4003 13.8423 14.1218 14.121C13.8432 14.3996 13.5126 14.6206 13.1486 14.7714C12.7847 14.9223 12.3946 14.9999 12.0006 15C11.2049 15 10.4419 14.6839 9.87927 14.1213C9.31666 13.5587 9.00059 12.7956 9.00059 12C9.00059 11.2044 9.31666 10.4413 9.87927 9.87868C10.4419 9.31607 11.2049 9 12.0006 9M17.2506 5.5C16.9191 5.5 16.6011 5.6317 16.3667 5.86612C16.1323 6.10054 16.0006 6.41848 16.0006 6.75C16.0006 7.08152 16.1323 7.39946 16.3667 7.63388C16.6011 7.8683 16.9191 8 17.2506 8C17.5821 8 17.9001 7.8683 18.1345 7.63388C18.3689 7.39946 18.5006 7.08152 18.5006 6.75C18.5006 6.41848 18.3689 6.10054 18.1345 5.86612C17.9001 5.6317 17.5821 5.5 17.2506 5.5Z" fill="#227BF1" />
+                                </svg>
                                 <span class="font-semibold text-[#D9D9D9]">@ugcbyboltpr</span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <hr class="w-full h-2 text-[#1D4E8F]">
-            <div class=" w-full text-center flex flex-col sm:flex-row justify-center sm:justify-between gap-6">
-                <span class="flex items-center gap-4 font-semibold text-xs text-[#D9D9D9]">
-                    © 2025 BoltPR <span>|</span> <span>All rights reserved</span></span>
-                <span class="flex items-center gap-4 font-semibold text-xs text-[#D9D9D9]">
-                    <span>Terms of Services</span>
-                    <span>Privacy Policy</span>
+            <hr class="w-full border-t border-[#1D4E8F] my-4">
+            <div class="w-full flex flex-col sm:flex-row items-center justify-between gap-4 px-4 md:px-8 lg:px-14 pb-6">
+                <span class="flex items-center gap-2 font-semibold text-xs md:text-sm text-[#D9D9D9] text-center sm:text-left">
+                    © 2025 BoltPR <span class="mx-1">|</span> <span>All rights reserved.</span>
                 </span>
+                <div class="flex items-center gap-4 md:gap-6 font-semibold text-xs md:text-sm text-[#D9D9D9]">
+                    <span class="hover:underline cursor-pointer transition-colors">Terms of Services</span>
+                    <span class="hover:underline cursor-pointer transition-colors">Privacy Policy</span>
+                </div>
             </div>
         </div>
     </section>
-
     <script>
         const menuBtn = document.getElementById("menu-btn");
         const mobileMenu = document.getElementById("mobile-menu");

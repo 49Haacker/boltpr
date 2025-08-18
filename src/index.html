@@ -11,11 +11,11 @@
 <body class="flex flex-col justify-center items-center">
     <!-- navabr section -->
     <section class="relative w-full flex justify-center">
-        <nav
-            class="flex justify-between items-center  w-full max-w-[-webkit-fill-available] md:max-w-3xl lg:max-w-6xl mx-6 md:mx-0 px-6 md:px-[40px] py-[12px] border border-white rounded-[16px] fixed top-[8px] md:top-[24px] bg-white shadow-lg z-50">
-            <img src="../assets/companylogoDark.svg" alt="company-logo-dark" class="w-[154px] h-[40px]">
+         <nav
+            class="flex justify-between items-center  w-full max-w-[-webkit-fill-available] md:max-w-3xl lg:max-w-[calc(100%-480px)]  mx-6 md:mx-0 px-6 md:pl-[16px] md:pr-[40px] py-[18px] border border-white rounded-[16px] fixed top-[8px] md:top-[24px] bg-white shadow-lg z-50">
+            <img src="../assets/companylogoDark.svg" alt="company-logo-dark" class="w-[9rem] h-[2rem]">
             <ul class="hidden md:flex items-center gap-6">
-                <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/index.html">Home</a></li>
+                <li><a class="text-sm hover:text-[#227BF1] font-semibold text-[#227BF1]" href="/src/index.html">Home</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/about.html">About</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/services.html">Services</a></li>
                 <li><a class="text-sm hover:text-[#227BF1] font-semibold" href="/src/ourwork.html">Our Work</a></li>
@@ -41,62 +41,97 @@
         <img src="../assets/hero.png" alt="Frame 1618872995" class="w-full h-screen object-cover">
     </section>
     <!-- Narrative -->
-    <section class="mt-6 flex flex-col max-w-6xl w-full px-6 text-center md:text-left">
-        <span class="text-3xl md:text-6xl text-[#1C1E21] font-semibold leading-tight">
-            Your Narrative Starts Here
-        </span>
-        <p class="mt-6 text-[#4F555D] font-medium text-base md:text-lg leading-relaxed">
+    <section class="mt-20 py-6 flex flex-col max-w-6xl w-full px-14 text-center md:text-left">
+        <h2 class="text-3xl md:text-[2.5rem] text-[#1C1E21] font-[700] leading-tight tracking-normal font-inter">
+            Your <span class="font-playfair text-[#0D2F5D] italic">Narrative</span> Starts Here
+        </h2>
+        <h4 class="mt-8 text-[#4F555D] text-[22px] self-stretch font-[500] font-inter text-justify  ">
             At Bolt PR, we partner with fashion, lifestyle, and beauty brands to build visibility that is
             strategic, consistent, and aligned with long-term goals. With teams in Mumbai and New York,
             we bring market expertise and cross-regional insight to every brand we work with. Our focus
             is on public relations and high-quality content production that strengthens brand presence
             and drives meaningful engagement.
-        </p>
-        <p class="mt-4 text-[#4F555D] font-medium text-base md:text-lg leading-relaxed">
+        </h4>
+        <h4 class="mt-6 text-[#4F555D] text-[22px] self-stretch font-[500] font-inter text-justify  ">
             Over the years, we've developed trusted relationships across media, talent, and celebrity
             networks, allowing us to bridge the gap between brands and influential voices in ways that
             feel organic and credible. Whether supporting an emerging label or an established name
             expanding its reach, we tailor our approach to ensure every story lands where it matters most.
-        </p>
+        </h4>
+
+        <div class="mt-8">
+            <a href="#"
+                class="inline-flex items-center px-6 py-3 rounded-xl bg-[#0D2F5D] text-white font-medium font-inter transition duration-300 gap-2 hover:bg-[#405573]"
+                style="box-shadow: 
+                  0px 2px 4px rgba(28, 30, 33, 0.25), 
+                  0px 16px 30px rgba(28, 30, 33, 0.35);">
+                Know Our Story
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+
+
     </section>
     <!-- Narrative -->
-    <section class="mt-6 w-full bg-[#EDF4FC] py-12 px-6">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-            <div class="w-full md:w-1/2">
+    <section class="mt-20 w-full bg-[#EDF4FC] py-14 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-[40px] px-14">
+            <div class="w-full md:w-[calc(100%-40%)]">
                 <img src="../assets/narrative.png" alt="Narrative" class="w-full h-auto rounded-lg">
             </div>
-            <div class="w-full md:w-1/2 flex flex-col gap-6">
-                <h2 class="text-3xl md:text-6xl text-[#1C1E21] font-semibold leading-tight">
-                    For brands built for <br class="hidden md:block" /> Real impact
+            <div class="w-full sm:w-full md:w-[calc(100%-60%)]  flex flex-col gap-6 pl-4 py-4">
+                <h2 class="text-3xl md:text-4xl text-[#1C1E21] font-semibold leading-tight font-inter">
+                    For brands built for <br class="hidden md:block" /><span
+                        class="text-[#0D2F5D] font-playfair italic font-bold">Real impact</span>
                 </h2>
-                <p class="text-[#4F555D] font-medium text-base md:text-lg leading-relaxed">
+                <p class="text-[#4F555D]  text-justify font-medium text-base md:text-lg leading-[26px] ">
                     At Bolt PR, we bring strategy, storytelling and execution together to help brands stay
                     relevant across every touchpoint. From creator partnerships and media outreach to
                     global content production, our work builds connection and credibility.
-                </p>
-                <p class="text-[#4F555D] font-medium text-base md:text-lg leading-relaxed">
                     We collaborate with fashion, lifestyle and beauty brands to craft platform-specific
                     communication that reflects your voice and goals. Whether it is awareness, engagement
                     or expansion, we make sure your presence moves with clarity and impact.
                 </p>
+                <div class="mt-2">
+                    <a href="#"
+                        class="inline-flex items-center px-6 py-4 rounded-xl text-sm bg-[#0D2F5D] text-white font-medium transition duration-300 gap-2 hover:bg-[#405573]"
+                        style="box-shadow: 
+                          0px 2px 4px rgba(28, 30, 33, 0.25), 
+                          0px 16px 30px rgba(28, 30, 33, 0.35);">
+                        Explore Our Services
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
     <!-- UGC -->
-    <section class="mt-6 relative w-full h-[600px] flex items-center justify-center overflow-hidden">
+    <section class="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
         <img src="../assets/ugc.png" alt="ugc" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-[#06172D] opacity-90"></div>
 
-        <div class="relative z-10 w-full max-w-6xl px-6">
+        <div class="relative z-10 w-full max-w-6xl px-14">
             <div class="max-w-2xl">
-                <h2 class="font-semibold text-white text-3xl md:text-4xl mb-4">
-                    UGC <span>You <span class="text-[#227BF1]">Need</span></span>
+                <h2 class="font-semibold text-white text-3xl font-inter">
+                   <svg width="330" height="61" viewBox="0 0 330 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.4489 14.0909H31.7727V36.8977C31.7727 39.3977 31.1818 41.5966 30 43.4943C28.8295 45.392 27.1818 46.875 25.0568 47.9432C22.9318 49 20.4489 49.5284 17.608 49.5284C14.7557 49.5284 12.267 49 10.142 47.9432C8.01705 46.875 6.36932 45.392 5.19886 43.4943C4.02841 41.5966 3.44318 39.3977 3.44318 36.8977V14.0909H9.76705V36.3693C9.76705 37.8239 10.0852 39.1193 10.7216 40.2557C11.3693 41.392 12.2784 42.2841 13.4489 42.9318C14.6193 43.5682 16.0057 43.8864 17.608 43.8864C19.2102 43.8864 20.5966 43.5682 21.767 42.9318C22.9489 42.2841 23.858 41.392 24.4943 40.2557C25.1307 39.1193 25.4489 37.8239 25.4489 36.3693V14.0909ZM62.0327 25.2386C61.7486 24.3182 61.3565 23.4943 60.8565 22.767C60.3679 22.0284 59.777 21.3977 59.0838 20.875C58.402 20.3523 57.6179 19.9602 56.7315 19.6989C55.8452 19.4261 54.8793 19.2898 53.8338 19.2898C51.9588 19.2898 50.2884 19.7614 48.8224 20.7045C47.3565 21.6477 46.2031 23.0341 45.3622 24.8636C44.5327 26.6818 44.1179 28.8977 44.1179 31.5114C44.1179 34.1477 44.5327 36.3807 45.3622 38.2102C46.1918 40.0398 47.3452 41.4318 48.8224 42.3864C50.2997 43.3295 52.0156 43.8011 53.9702 43.8011C55.7429 43.8011 57.277 43.4602 58.5724 42.7784C59.8793 42.0966 60.8849 41.1307 61.5895 39.8807C62.294 38.6193 62.6463 37.142 62.6463 35.4489L64.0781 35.6705H54.6009V30.7273H68.7656V34.9205C68.7656 37.9091 68.1293 40.4943 66.8565 42.6761C65.5838 44.858 63.8338 46.5398 61.6065 47.7216C59.3793 48.892 56.8224 49.4773 53.9361 49.4773C50.7202 49.4773 47.8963 48.7557 45.4645 47.3125C43.044 45.858 41.152 43.7955 39.7884 41.125C38.4361 38.4432 37.7599 35.2614 37.7599 31.5795C37.7599 28.7614 38.1577 26.2443 38.9531 24.0284C39.7599 21.8125 40.8849 19.9318 42.3281 18.3864C43.7713 16.8295 45.4645 15.6477 47.4077 14.8409C49.3509 14.0227 51.4645 13.6136 53.7486 13.6136C55.6804 13.6136 57.4815 13.8977 59.152 14.4659C60.8224 15.0227 62.3054 15.8182 63.6009 16.8523C64.9077 17.8864 65.9815 19.1136 66.8224 20.5341C67.6634 21.9545 68.2145 23.5227 68.4759 25.2386H62.0327ZM104.761 25.8693H98.3864C98.2045 24.8239 97.8693 23.8977 97.3807 23.0909C96.892 22.2727 96.2841 21.5795 95.5568 21.0114C94.8295 20.4432 94 20.017 93.0682 19.733C92.1477 19.4375 91.1534 19.2898 90.0852 19.2898C88.1875 19.2898 86.5057 19.767 85.0398 20.7216C83.5739 21.6648 82.4261 23.0511 81.5966 24.8807C80.767 26.6989 80.3523 28.9205 80.3523 31.5455C80.3523 34.2159 80.767 36.4659 81.5966 38.2955C82.4375 40.1136 83.5852 41.4886 85.0398 42.4205C86.5057 43.3409 88.1818 43.8011 90.0682 43.8011C91.1136 43.8011 92.0909 43.6648 93 43.392C93.9205 43.108 94.7443 42.6932 95.4716 42.1477C96.2102 41.6023 96.8295 40.9318 97.3295 40.1364C97.8409 39.3409 98.1932 38.4318 98.3864 37.4091L104.761 37.4432C104.523 39.1023 104.006 40.6591 103.21 42.1136C102.426 43.5682 101.398 44.8523 100.125 45.9659C98.8523 47.0682 97.3636 47.9318 95.6591 48.5568C93.9545 49.1705 92.0625 49.4773 89.983 49.4773C86.9148 49.4773 84.1761 48.767 81.767 47.3466C79.358 45.9261 77.4602 43.875 76.0739 41.1932C74.6875 38.5114 73.9943 35.2955 73.9943 31.5455C73.9943 27.7841 74.6932 24.5682 76.0909 21.8977C77.4886 19.2159 79.392 17.1648 81.8011 15.7443C84.2102 14.3239 86.9375 13.6136 89.983 13.6136C91.9261 13.6136 93.733 13.8864 95.4034 14.4318C97.0739 14.9773 98.5625 15.7784 99.8693 16.8352C101.176 17.8807 102.25 19.1648 103.091 20.6875C103.943 22.1989 104.5 23.9261 104.761 25.8693ZM120.072 14.0909H127.214L135.754 29.5341H136.095L144.635 14.0909H151.777L139.078 35.9773V49H132.771V35.9773L120.072 14.0909ZM162.528 49.5114C159.972 49.5114 157.756 48.9489 155.881 47.8239C154.006 46.6989 152.551 45.125 151.517 43.1023C150.494 41.0795 149.983 38.7159 149.983 36.0114C149.983 33.3068 150.494 30.9375 151.517 28.9034C152.551 26.8693 154.006 25.2898 155.881 24.1648C157.756 23.0398 159.972 22.4773 162.528 22.4773C165.085 22.4773 167.301 23.0398 169.176 24.1648C171.051 25.2898 172.5 26.8693 173.523 28.9034C174.557 30.9375 175.074 33.3068 175.074 36.0114C175.074 38.7159 174.557 41.0795 173.523 43.1023C172.5 45.125 171.051 46.6989 169.176 47.8239C167.301 48.9489 165.085 49.5114 162.528 49.5114ZM162.562 44.5682C163.949 44.5682 165.108 44.1875 166.04 43.4261C166.972 42.6534 167.665 41.6193 168.119 40.3239C168.585 39.0284 168.818 37.5852 168.818 35.9943C168.818 34.392 168.585 32.9432 168.119 31.6477C167.665 30.3409 166.972 29.3011 166.04 28.5284C165.108 27.7557 163.949 27.3693 162.562 27.3693C161.142 27.3693 159.96 27.7557 159.017 28.5284C158.085 29.3011 157.386 30.3409 156.92 31.6477C156.466 32.9432 156.239 34.392 156.239 35.9943C156.239 37.5852 156.466 39.0284 156.92 40.3239C157.386 41.6193 158.085 42.6534 159.017 43.4261C159.96 44.1875 161.142 44.5682 162.562 44.5682ZM196.999 37.9886V22.8182H203.169V49H197.186V44.3466H196.913C196.322 45.8125 195.351 47.0114 193.999 47.9432C192.658 48.875 191.004 49.3409 189.038 49.3409C187.322 49.3409 185.805 48.9602 184.487 48.1989C183.18 47.4261 182.158 46.3068 181.419 44.8409C180.68 43.3636 180.311 41.5795 180.311 39.4886V22.8182H186.482V38.5341C186.482 40.1932 186.936 41.5114 187.845 42.4886C188.754 43.4659 189.947 43.9545 191.425 43.9545C192.334 43.9545 193.214 43.733 194.067 43.2898C194.919 42.8466 195.618 42.1875 196.163 41.3125C196.72 40.4261 196.999 39.3182 196.999 37.9886Z" fill="white"/>
+<path d="M244.2 49.24L232.008 22.552C232.008 22.552 232.008 22.424 232.008 22.168C232.008 21.912 231.992 21.64 231.96 21.352C231.96 21.032 231.944 20.744 231.912 20.488C231.912 20.232 231.912 20.104 231.912 20.104C232.168 18.92 232.248 18.056 232.152 17.512C232.088 16.936 231.768 16.552 231.192 16.36C230.648 16.136 229.752 16.008 228.504 15.976L228.744 15.016C229.256 15.048 229.88 15.08 230.616 15.112C231.384 15.144 232.184 15.16 233.016 15.16C234.52 15.16 235.816 15.112 236.904 15.016L247.08 38.344C247.08 38.344 247.032 38.616 246.936 39.16C246.84 39.672 246.712 40.344 246.552 41.176C246.424 41.976 246.296 42.856 246.168 43.816C246.04 44.744 245.896 45.624 245.736 46.456C245.608 47.256 245.496 47.928 245.4 48.472C245.304 48.984 245.256 49.24 245.256 49.24H244.2ZM258.936 13.72C258.104 13.72 257.352 13.96 256.68 14.44C256.008 14.92 255.416 15.528 254.904 16.264C253.432 18.44 251.928 22.264 250.392 27.736C248.856 33.208 247.144 40.376 245.256 49.24L244.584 47.896C245.064 45.752 245.576 43.448 246.12 40.984C246.664 38.488 247.24 35.992 247.848 33.496C248.488 31 249.128 28.616 249.768 26.344C250.44 24.072 251.128 22.04 251.832 20.248C252.568 18.424 253.304 16.968 254.04 15.88C254.648 15.016 255.368 14.296 256.2 13.72C257.032 13.112 258.04 12.808 259.224 12.808C260.696 12.808 261.816 13.208 262.584 14.008C263.384 14.808 263.784 15.768 263.784 16.888C263.784 18.104 263.368 19.144 262.536 20.008C261.736 20.84 260.696 21.256 259.416 21.256C258.36 21.256 257.544 21 256.968 20.488C256.392 19.944 256.104 19.256 256.104 18.424C256.104 17.336 256.456 16.392 257.16 15.592C257.864 14.76 258.712 14.2 259.704 13.912C259.64 13.848 259.528 13.8 259.368 13.768C259.24 13.736 259.096 13.72 258.936 13.72ZM220.008 51.64C220.872 51.64 221.64 51.4 222.312 50.92C222.984 50.472 223.56 49.848 224.04 49.048C224.968 47.576 225.896 45.272 226.824 42.136C227.784 39 228.744 35.208 229.704 30.76C230.696 26.312 231.688 21.432 232.68 16.12L233.496 17.128C232.984 19.752 232.44 22.424 231.864 25.144C231.32 27.832 230.76 30.472 230.184 33.064C229.608 35.624 229.016 38.008 228.408 40.216C227.8 42.424 227.192 44.344 226.584 45.976C225.976 47.576 225.384 48.76 224.808 49.528C224.232 50.296 223.544 50.984 222.744 51.592C221.976 52.232 220.952 52.552 219.672 52.552C218.232 52.552 217.128 52.152 216.36 51.352C215.56 50.552 215.16 49.592 215.16 48.472C215.16 47.224 215.576 46.184 216.408 45.352C217.24 44.52 218.28 44.104 219.528 44.104C220.616 44.104 221.432 44.376 221.976 44.92C222.552 45.432 222.84 46.104 222.84 46.936C222.84 48.024 222.488 48.968 221.784 49.768C221.08 50.568 220.216 51.128 219.192 51.448C219.288 51.512 219.4 51.56 219.528 51.592C219.656 51.624 219.816 51.64 220.008 51.64ZM260.585 38.584C261.897 38.072 263.145 37.496 264.329 36.856C265.513 36.216 266.521 35.512 267.353 34.744C268.601 33.624 269.593 32.328 270.329 30.856C271.097 29.352 271.481 27.736 271.481 26.008C271.481 25.368 271.417 24.952 271.289 24.76C271.161 24.536 270.969 24.424 270.713 24.424C270.009 24.424 269.241 24.792 268.409 25.528C267.609 26.232 266.809 27.192 266.009 28.408C265.209 29.592 264.473 30.952 263.801 32.488C263.161 34.024 262.633 35.624 262.217 37.288C261.833 38.952 261.641 40.568 261.641 42.136C261.641 43.928 261.977 45.16 262.649 45.832C263.353 46.472 264.249 46.792 265.337 46.792C266.201 46.792 267.273 46.504 268.553 45.928C269.833 45.352 271.097 44.328 272.345 42.856L273.113 43.24C272.441 44.296 271.561 45.32 270.473 46.312C269.385 47.304 268.121 48.12 266.681 48.76C265.241 49.368 263.673 49.672 261.977 49.672C260.537 49.672 259.241 49.416 258.089 48.904C256.969 48.392 256.073 47.64 255.401 46.648C254.761 45.624 254.441 44.376 254.441 42.904C254.441 41.208 254.713 39.464 255.257 37.672C255.833 35.88 256.633 34.152 257.657 32.488C258.681 30.792 259.913 29.272 261.353 27.928C262.793 26.552 264.393 25.48 266.153 24.712C267.913 23.912 269.785 23.512 271.769 23.512C273.177 23.512 274.361 23.832 275.321 24.472C276.281 25.08 276.761 26.024 276.761 27.304C276.761 28.552 276.409 29.72 275.705 30.808C275.033 31.896 274.121 32.888 272.969 33.784C271.817 34.68 270.521 35.48 269.081 36.184C267.673 36.888 266.217 37.496 264.713 38.008C263.241 38.52 261.849 38.92 260.537 39.208L260.585 38.584ZM283.085 38.584C284.397 38.072 285.645 37.496 286.829 36.856C288.013 36.216 289.021 35.512 289.853 34.744C291.101 33.624 292.093 32.328 292.829 30.856C293.597 29.352 293.981 27.736 293.981 26.008C293.981 25.368 293.917 24.952 293.789 24.76C293.661 24.536 293.469 24.424 293.213 24.424C292.509 24.424 291.741 24.792 290.909 25.528C290.109 26.232 289.309 27.192 288.509 28.408C287.709 29.592 286.973 30.952 286.301 32.488C285.661 34.024 285.133 35.624 284.717 37.288C284.333 38.952 284.141 40.568 284.141 42.136C284.141 43.928 284.477 45.16 285.149 45.832C285.853 46.472 286.749 46.792 287.837 46.792C288.701 46.792 289.773 46.504 291.053 45.928C292.333 45.352 293.597 44.328 294.845 42.856L295.613 43.24C294.941 44.296 294.061 45.32 292.973 46.312C291.885 47.304 290.621 48.12 289.181 48.76C287.741 49.368 286.173 49.672 284.477 49.672C283.037 49.672 281.741 49.416 280.589 48.904C279.469 48.392 278.573 47.64 277.901 46.648C277.261 45.624 276.941 44.376 276.941 42.904C276.941 41.208 277.213 39.464 277.757 37.672C278.333 35.88 279.133 34.152 280.157 32.488C281.181 30.792 282.413 29.272 283.853 27.928C285.293 26.552 286.893 25.48 288.653 24.712C290.413 23.912 292.285 23.512 294.269 23.512C295.677 23.512 296.861 23.832 297.821 24.472C298.781 25.08 299.261 26.024 299.261 27.304C299.261 28.552 298.909 29.72 298.205 30.808C297.533 31.896 296.621 32.888 295.469 33.784C294.317 34.68 293.021 35.48 291.581 36.184C290.173 36.888 288.717 37.496 287.213 38.008C285.741 38.52 284.349 38.92 283.037 39.208L283.085 38.584ZM319.649 44.92C319.361 45.688 319.281 46.28 319.409 46.696C319.569 47.112 319.873 47.32 320.321 47.32C320.737 47.32 321.185 47.08 321.665 46.6C322.177 46.088 322.705 45.064 323.249 43.528L324.065 41.224H324.977L323.825 44.728C323.409 46.04 322.849 47.064 322.145 47.8C321.441 48.504 320.673 48.984 319.841 49.24C319.041 49.528 318.257 49.672 317.489 49.672C315.505 49.672 314.241 48.936 313.697 47.464C313.409 46.856 313.281 46.104 313.313 45.208C313.345 44.28 313.537 43.224 313.889 42.04L320.561 16.984C320.881 15.896 320.849 15.096 320.465 14.584C320.081 14.072 319.105 13.816 317.537 13.816L317.825 12.808C320.097 12.776 322.129 12.6 323.921 12.28C325.713 11.928 327.425 11.448 329.057 10.84L319.649 44.92ZM308.129 47.272C308.673 47.272 309.313 46.92 310.049 46.216C310.785 45.512 311.569 44.472 312.401 43.096C313.233 41.688 314.033 39.976 314.801 37.96C315.569 35.912 316.257 33.576 316.865 30.952L316.145 36.136C315.089 39.208 314.033 41.752 312.977 43.768C311.953 45.784 310.817 47.272 309.569 48.232C308.353 49.192 306.897 49.672 305.201 49.672C304.145 49.672 303.185 49.432 302.321 48.952C301.457 48.472 300.769 47.752 300.257 46.792C299.745 45.8 299.489 44.52 299.489 42.952C299.489 41.48 299.713 39.88 300.161 38.152C300.641 36.392 301.329 34.664 302.225 32.968C303.153 31.272 304.257 29.704 305.537 28.264C306.849 26.824 308.337 25.672 310.001 24.808C311.665 23.944 313.489 23.512 315.473 23.512C316.497 23.512 317.249 23.752 317.729 24.232C318.241 24.68 318.545 25.32 318.641 26.152L318.257 27.112C318.129 26.28 317.905 25.656 317.585 25.24C317.265 24.824 316.785 24.616 316.145 24.616C315.313 24.616 314.449 25 313.553 25.768C312.657 26.504 311.793 27.528 310.961 28.84C310.161 30.12 309.425 31.592 308.753 33.256C308.081 34.888 307.553 36.632 307.169 38.488C306.785 40.312 306.593 42.136 306.593 43.96C306.593 45.048 306.705 45.88 306.929 46.456C307.185 47 307.585 47.272 308.129 47.272Z" fill="#227BF1"/>
+</svg>
+
                 </h2>
-                <p class="font-light text-white text-lg mb-2">
+                <p class="font-[300] text-white text-[28px] mt-[24px]  font-inter  tracking-[2px]   leading-[38px]">
                     Is it just content for the scroll or
-                    <span class="font-medium">credibility that actually converts?</span>
+                   
                 </p>
-                <p class="font-medium text-white mb-6">
+                 <p class="font-[700] text-white text-[28px] font-inter italic mb-[24px] tracking-[2px] leading-[38px]">credibility that actually converts?</p>
+                <p class="font-inter text-sm px-2 text-white my-[28px] text-justify tracking-[1px] leading-[24px]">
                     At Bolt PR, we approach UGC as a standalone vertical that prioritizes trust, relatability,
                     and measurable impact. It's not about product placement. It's about people-powered stories
                     that resonate. Whether it's from everyday consumers or curated creators, we craft content
@@ -104,9 +139,14 @@
                 </p>
 
                 <button
-                    class="inline-flex items-center gap-2 border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#06172D] transition cursor-pointer">
+                    class="inline-flex items-center gap-2 border border-[#ffffff] text-sm text-white px-6 py-4 rounded-lg hover:bg-[#0D2F5D] hover:border-[#4a90e2] transition-all duration-300 cursor-pointer shadow-lg">
                     Explore How We Do It
-                    <img src="../assets/arrow.svg" alt="arrow" class="w-4 h-4">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
                 </button>
             </div>
         </div>
@@ -114,144 +154,237 @@
     <!-- our clients -->
     <section class="mt-6 w-full flex flex-col items-center justify-center gap-8 py-12">
         <div class="flex flex-col items-center text-center px-4">
-            <span class="text-3xl font-bold text-[#0D2F5D]">Our Clients</span>
-            <span class="mt-2 font-medium text-[#4F555D] max-w-2xl">
+            <span class="text-5xl font-bold text-[#1C1E21] font-inter">Our <span
+                    class="font-playfair italic font-bold text-[#0D2F5D]">Clients</span></span>
+            <span class="mt-6 font-medium text-[#4F555D] w-full text-[18px] tracking-[1px]">
                 From emerging labels to established names, we partner with brands that lead with purpose.
             </span>
         </div>
 
         <div class="relative z-10 w-full max-w-6xl px-6 flex flex-col items-center gap-6">
-            <img src="../assets/ourclient.png" alt="Our Clients" class="w-full h-auto object-contain">
-            <button
-                class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-[#0D2F5D] text-white hover:bg-[#0b264a] transition">
-                Explore our past work
-                <img src="../assets/arrow.svg" alt="arrow" class="w-4 h-4">
-            </button>
+            <div class="max-w-6xl flex flex-wrap justify-center items-center gap-6">
+                <div class="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1 ">
+                     <img src="../assets/Review/clients-logo-19.png" alt="Client 1" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                      <img src="../assets/Review/clients-logo-20.png" alt="Client 1" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-1.png" alt="Client 1" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-2.png" alt="Client 2" class="client-logo fade-in delay-1 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-3.png" alt="Client 3" class="client-logo fade-in delay-4 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-4.png" alt="Client 4" class="client-logo fade-in delay-3 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-5.png" alt="Client 5" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-6.png" alt="Client 6" class="client-logo fade-in delay-1 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-7.png" alt="Client 7" class="client-logo fade-in delay-3 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-8.png" alt="Client 8" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-9.png" alt="Client 9" class="client-logo fade-in delay-2 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-10.png" alt="Client 10" class="client-logo fade-in delay-1 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-11.png" alt="Client 11" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-12.png" alt="Client 12" class="client-logo fade-in delay-1 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-13.png" alt="Client 13" class="client-logo fade-in delay-1 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-14.png" alt="Client 14" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-15.png" alt="Client 15" class="client-logo fade-in delay-4 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-16.png" alt="Client 16" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-17.png" alt="Client 17" class="client-logo fade-in delay-6 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                    <img src="../assets/Review/clients-logo-18.png" alt="Client 18" class="client-logo fade-in delay-0 aspect-[3/2] w-full h-[90px] sm:h-[110px] w-[260px] object-contain">
+                </div>
+            </div>
+            <div class="mt-4">
+                <a href="#"
+                    class="inline-flex items-center px-6 py-3 rounded-xl bg-[#0D2F5D] text-white font-medium transition duration-300 gap-2 hover:bg-[#405573]"
+                    style="box-shadow: 
+                      0px 2px 4px rgba(28, 30, 33, 0.25), 
+                      0px 16px 30px rgba(28, 30, 33, 0.35);">
+                    Explore How We Do It
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </section>
     <!-- Testimonials -->
     <section
         class="mt-6 relative w-full flex flex-col items-center gap-8 py-12 bg-[linear-gradient(180deg,rgba(202,240,248,0)_0%,rgba(202,240,248,0.5)_12%,rgba(202,240,248,0)_70%)]">
-        <h2 class="text-3xl font-semibold text-[#1C1E21] text-center">
-            Testimonials That <span class="text-[#0D2F5D]">Matter</span>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#1C1E21] font-inter text-center md:text-left w-full max-w-6xl px-4 md:px-6">
+            Testimonials That <span class="text-[#0D2F5D] font-playfair italic font-bold">Matter</span>
         </h2>
 
         <div id="testimonial-container"
-            class="flex flex-nowrap items-center overflow-x-auto gap-6 px-6 max-w-6xl w-full scrollbar-hide h-323">
-            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
-                <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-[#4F555D] text-sm leading-relaxed">
-                    It’s been more than a year since I started working with Bolt PR. The experience has been
-                    enthralling, from easy communications to quick deliverables.
-                    <br><br>
+            class="flex flex-col md:flex-row flex-nowrap items-start md:items-center overflow-x-auto gap-6 md:gap-8 py-4 px-4 md:px-6 max-w-7xl w-full scrollbar-hide">
+             <div class="min-h-[450px]  flex-shrink-0 flex flex-col justify-between p-4 md:p-6 lg:p-8 bg-white rounded-xl shadow-lg w-full md:w-[400px] lg:w-[500px] h-auto ">
+                <div class="flex flex-col gap-3 md:gap-4">
+                    <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8 md:w-12 md:h-12" />
+                    <p
+                        class="text-[#4F555D] text-sm md:text-base leading-relaxed  overflow-hidden font-inter font-medium">
+                        It's been more than a year since I started working with Bolt PR. The experience has been enthralling
+                    for our brand, from easy communications to quick deliverables, Team Bolt PR has provided us
+                    exemplary service.
+                    <br>
                     Kudos to your impeccable work. Lots of love!
-                </p>
-                <span class="font-semibold text-[#1D4E8F]">Dimple Katara, Founder</span>
-                <img src="../assets/dimplestidio.svg" alt="Dimple Stidio Logo" width="133" height="133" />
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 mt-4 md:mt-6">
+                    <div class="flex items-baseline gap-1">
+                        <span class="font-semibold text-[#1D4E8F] text-base md:text-lg">Samik Sarkar , Founder</span>
+                    </div>
+                    <img src="../assets/dimplestidio.svg" alt="Rustorange Logo" class="w-24 h-auto md:w-32" />
+                </div>
             </div>
-            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
-                <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-[#4F555D] text-sm leading-relaxed">
-                    Bolt PR has been a game-changer for us, enhancing our brand's visibility through innovative creative
-                    shoots and strategic endorsements.
-                </p>
-                <span class="font-semibold text-[#1D4E8F]">Samik Sarkar, Founder</span>
-                <img src="../assets/rustorange.svg" alt="Rustorange Logo" width="133" height="133" />
+            <div class="min-h-[450px]  flex-shrink-0 flex flex-col justify-between p-4 md:p-6 lg:p-8 bg-white rounded-xl shadow-lg w-full md:w-[400px] lg:w-[750px] h-auto ">
+                <div class="flex flex-col gap-3 md:gap-4">
+                    <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8 md:w-12 md:h-12" />
+                    <p
+                        class="text-[#4F555D] text-sm md:text-base leading-relaxed  overflow-hidden font-inter font-medium">
+                       Bolt PR has been a game-changer for us, significantly enhancing our brand's visibility through well-executed celebrity endorsements. Their ability to conceptualize and execute innovative and engaging creative shoots has exceeded our expectations.
+                        The team stands out for their deep understanding of client needs and commitment to delivering exceptional results within tight deadlines. Their strategic approach and meticulous attention to detail have been crucial in achieving our goals. We've been consistently impressed with Bolt PR's professionalism and creativity. Their contributions have been invaluable, and we highly recommend their services to anyone looking to elevate their brand's presence and impact.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 mt-4 md:mt-6">
+                    <div class="flex items-baseline gap-1">
+                        <span class="font-semibold text-[#1D4E8F] text-base md:text-lg">Samik Sarkar , Founder</span>
+                    </div>
+                    <img src="../assets/rustorange.svg" alt="Rustorange Logo" class="w-24 h-auto md:w-32" />
+                </div>
             </div>
-            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
-                <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-[#4F555D] text-sm leading-relaxed">
-                    I've worked with Bolt PR for four years, and their dedication, creativity, and professionalism are
-                    unmatched.
-                </p>
-                <span class="font-semibold text-[#1D4E8F]">Pari Choudhary, Founder</span>
-                <img src="../assets/bunnai.svg" alt="Bunnai Logo" width="133" height="133" />
+            <div class="min-h-[450px]  flex-shrink-0 flex flex-col justify-between p-4 md:p-6 lg:p-8 bg-white rounded-xl shadow-lg w-full md:w-[400px] lg:w-[750px] h-auto ">
+                <div class="flex flex-col gap-3 md:gap-4">
+                    <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8 md:w-12 md:h-12" />
+                    <p
+                        class="text-[#4F555D] text-sm md:text-base leading-relaxed  overflow-hidden font-inter font-medium">
+                        I've had the pleasure of working with Bolt PR and it's been a remarkable experience. Their
+                        expertise consistently exceeded my expectations. They understand and bring to life my vision,
+                        ensuring excellence from start to finish. Their dedication, creativity and professionalism are
+                        unmatched. I highly recommend Bolt PR to anyone seeking exceptional results.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 mt-4 md:mt-6">
+                    <div class="flex items-baseline gap-1">
+                        <span class="font-semibold text-[#1D4E8F] text-base md:text-lg">Pari Choudhary , Founder</span>
+                    </div>
+                    <img src="../assets/bunnai.svg" alt="Bunnai Logo" class="w-24 h-auto md:w-32" />
+                </div>
             </div>
-            <div class="flex-shrink-0 flex flex-col justify-between p-6 bg-white rounded-xl shadow w-800 h-483">
-                <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8" />
-                <p class="text-[#4F555D] text-sm leading-relaxed">
-                    Working with Bolt PR for our photoshoots and promotions has been a pleasure. They always exceed
-                    expectations.
-                </p>
-                <span class="font-semibold text-[#1D4E8F]">Vandana Talwar, Founder</span>
-                <img src="../assets/prevasu.svg" alt="Prevasu Logo" width="133" height="133" />
+            <div class="min-h-[450px]  flex-shrink-0 flex flex-col justify-between p-4 md:p-6 lg:p-8 bg-white rounded-xl shadow-lg w-full md:w-[400px] lg:w-[750px] h-auto ">
+                <div class="flex flex-col gap-3 md:gap-4">
+                    <img src="../assets/commo.svg" alt="Quote Icon" class="w-8 h-8 md:w-12 md:h-12" />
+                    <p
+                        class="text-[#4F555D] text-sm md:text-base leading-relaxed  overflow-hidden font-inter font-medium">
+                        Working with Bolt PR for our photoshoots and promotions has been a pleasure. They always exceed
+                        expectations and deliver exceptional results. Their attention to detail and creative vision have
+                        helped us achieve remarkable success in our marketing campaigns.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-2 mt-4 md:mt-6">
+                    <div class="flex items-baseline gap-1">
+                        <span class="font-semibold text-[#1D4E8F] text-base md:text-lg">Vandana Talwar , Founder</span>
+                    </div>
+                    <img src="../assets/prevasu.svg" alt="Prevasu Logo" class="w-24 h-auto md:w-32" />
+                </div>
             </div>
         </div>
     </section>
 
     <!-- sub footer -->
-    <section class="mt-6 w-full text-center px-6 py-12">
-        <span class="flex flex-col items-center font-bold text-[#1C1E21] text-4xl">
-            <span>Ready to start</span>
-            <span>Your <span class="text-[#227BF1]">story</span> with us?</span>
-        </span>
+    <section class="mt-6 w-full text-center px-4 md:px-6 py-8 md:py-12">
+        <div class="flex flex-col items-center gap-6 md:gap-8">
+            <span class="flex flex-col items-center font-bold text-[#1C1E21] text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-inter leading-tight">
+                <span>Ready to start</span>
+                <span>Your <span class="text-[#227BF1] font-playfair italic">story</span> with us?</span>
+            </span>
+            <div class="mt-2 md:mt-4">
+                <a href="#"
+                    class="inline-flex items-center px-4 md:px-6 py-2 md:py-3 rounded-xl bg-[#0D2F5D] text-white font-medium transition duration-300 gap-2 hover:bg-[#405573] text-sm md:text-base"
+                    style="box-shadow: 
+                      0px 2px 4px rgba(28, 30, 33, 0.25), 
+                      0px 16px 30px rgba(28, 30, 33, 0.35);">
+                    Let's Connect
+                    <svg width="20" height="20" class="md:w-6 md:h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+        </div>
     </section>
     <!-- footer -->
     <section class="w-full flex justify-center bg-[#0D2F5D] text-white">
-        <div class="max-w-6xl w-full flex flex-col items-center gap-8 py-12 px-6">
-            <div class="w-full flex flex-col md:flex-row gap-8 md:gap-28 text-xl">
-                <div class="flex flex-col gap-4">
-                    <!-- <span class="font-semibold">BoltPR</span> -->
-                    <img src="../assets/companylogo.svg" alt="company-logo" class="w-[231px] h-[60px]">
-                    <div class="flex flex-col gap-2 text-sm opacity-80">
-                        <span class="flex items-center gap-1">
-                            <img src="../assets/location.svg" alt="location" class="w-[24px] h-[24px]">
-                            <span class="font-semibold text-sm">Mumbai</span>
+        <div class="max-w-6xl w-full flex flex-col items-center gap-0 py-0 px-0">
+            <div class="w-full flex flex-col lg:flex-row gap-8 lg:gap-12 text-base pt-14 pb-8 px-4 md:px-8 lg:px-14">
+                <!-- Logo and Locations Section -->
+                <div class="flex flex-col gap-6 w-full lg:w-auto lg:min-w-[280px]">
+                    <img src="../assets/companylogo.svg" alt="company-logo" class="w-[160px] md:w-[180px] h-auto mb-2">
+                    <div class="flex flex-col gap-3 text-xs opacity-80">
+                        <span class="flex items-center gap-2">
+                            <img src="../assets/locationfooter.svg" alt="location" class="w-[16px] h-[16px] md:w-[18px] md:h-[18px]">
+                            <span class="font-semibold text-xs md:text-sm">Mumbai</span>
                         </span>
-                        <span class="flex items-center gap-1">
-                            <img src="../assets/location.svg" alt="location" class="w-[24px] h-[24px]">
-                            <span class="font-semibold text-sm">New York</span>
+                        <span class="flex items-center gap-2">
+                            <img src="../assets/locationfooter.svg" alt="location" class="w-[16px] h-[16px] md:w-[18px] md:h-[18px]">
+                            <span class="font-semibold text-xs md:text-sm">New York</span>
                         </span>
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-xl">
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-[#227BF1] text-lg">Links</span>
-                        <ul class="flex flex-col gap-4">
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Home</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">About</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Services</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Our Work</a></li>
-                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9]">Contact</a></li>
+                <!-- Links and Contact Information Grid -->
+                <div class="w-full grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 lg:gap-12 text-base">
+                    <!-- Links -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Links</span>
+                        <ul class="flex flex-col gap-2">
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Home</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">About</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Services</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Our Work</a></li>
+                            <li><a href="#" class="hover:underline font-semibold text-[#D9D9D9] text-xs md:text-sm transition-colors">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Contact</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="font-semibold text-[#D9D9D9]">+91 8574745847</li>
-                            <li class="font-semibold text-[#D9D9D9]">+91 8574854757</li>
+                    <!-- Contact Number -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Contact Number</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">+91 96199 17211</li>
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">+91 87793 79967</li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Emails</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="font-semibold text-[#D9D9D9]">example@gmail.com</li>
-                            <li class="font-semibold text-[#D9D9D9]">test@gmail.com</li>
+                    <!-- Emails -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Emails</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">team@boltpr.in</li>
+                            <li class="font-semibold text-[#D9D9D9] text-xs md:text-sm">ananya@boltpr.in</li>
                         </ul>
                     </div>
-                    <div class="flex flex-col gap-6">
-                        <span class="block font-semibold text-lg text-[#227BF1]">Socials</span>
-                        <ul class="flex flex-col gap-4">
-                            <li class="text-[#D9D9D9] flex items-center gap-1">
-                                <img src="../assets/social.svg" alt="social" class="w-[34px] h-[24px]">
+                    <!-- Socials -->
+                    <div class="flex flex-col gap-3">
+                        <span class="block font-semibold text-[#227BF1] text-sm md:text-base mb-2">Socials</span>
+                        <ul class="flex flex-col gap-2">
+                            <li class="text-[#D9D9D9] flex items-center gap-2 text-xs md:text-sm">
+                                <svg width="16" height="16" class="md:w-[18px] md:h-[18px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.0276 2C14.1526 2.003 14.7236 2.009 15.2166 2.023L15.4106 2.03C15.6346 2.038 15.8556 2.048 16.1226 2.06C17.1866 2.11 17.9126 2.278 18.5496 2.525C19.2096 2.779 19.7656 3.123 20.3216 3.678C20.8303 4.17773 21.2238 4.78247 21.4746 5.45C21.7216 6.087 21.8896 6.813 21.9396 7.878C21.9516 8.144 21.9616 8.365 21.9696 8.59L21.9756 8.784C21.9906 9.276 21.9966 9.847 21.9986 10.972L21.9996 11.718V13.028C22.002 13.7574 21.9944 14.4868 21.9766 15.216L21.9706 15.41C21.9626 15.635 21.9526 15.856 21.9406 16.122C21.8906 17.187 21.7206 17.912 21.4746 18.55C21.2238 19.2175 20.8303 19.8223 20.3216 20.322C19.8219 20.8307 19.2171 21.2242 18.5496 21.475C17.9126 21.722 17.1866 21.89 16.1226 21.94L15.4106 21.97L15.2166 21.976C14.7236 21.99 14.1526 21.997 13.0276 21.999L12.2816 22H10.9726C10.2429 22.0026 9.51312 21.9949 8.78359 21.977L8.58959 21.971C8.3522 21.962 8.11487 21.9517 7.87759 21.94C6.81359 21.89 6.08759 21.722 5.44959 21.475C4.78242 21.2241 4.17804 20.8306 3.67859 20.322C3.16954 19.8224 2.7757 19.2176 2.52459 18.55C2.27759 17.913 2.10959 17.187 2.05959 16.122L2.02959 15.41L2.02459 15.216C2.00616 14.4868 1.99782 13.7574 1.99959 13.028V10.972C1.99682 10.2426 2.00416 9.5132 2.02159 8.784L2.02859 8.59C2.03659 8.365 2.04659 8.144 2.05859 7.878C2.10859 6.813 2.27659 6.088 2.52359 5.45C2.77529 4.7822 3.16982 4.17744 3.67959 3.678C4.17875 3.16955 4.78278 2.77607 5.44959 2.525C6.08759 2.278 6.81259 2.11 7.87759 2.06C8.14359 2.048 8.36559 2.038 8.58959 2.03L8.78359 2.024C9.51278 2.00623 10.2422 1.99857 10.9716 2.001L13.0276 2ZM11.9996 7C10.6735 7 9.40174 7.52678 8.46406 8.46447C7.52638 9.40215 6.99959 10.6739 6.99959 12C6.99959 13.3261 7.52638 14.5979 8.46406 15.5355C9.40174 16.4732 10.6735 17 11.9996 17C13.3257 17 14.5974 16.4732 15.5351 15.5355C16.4728 14.5979 16.9996 13.3261 16.9996 12C16.9996 10.6739 16.4728 9.40215 15.5351 8.46447C14.5974 7.52678 13.3257 7 11.9996 7ZM11.9996 9C12.3936 8.99993 12.7837 9.07747 13.1477 9.22817C13.5117 9.37887 13.8424 9.5998 14.1211 9.87833C14.3997 10.1569 14.6207 10.4875 14.7715 10.8515C14.9224 11.2154 15 11.6055 15.0001 11.9995C15.0002 12.3935 14.9226 12.7836 14.7719 13.1476C14.6212 13.5116 14.4003 13.8423 14.1218 14.121C13.8432 14.3996 13.5126 14.6206 13.1486 14.7714C12.7847 14.9223 12.3946 14.9999 12.0006 15C11.2049 15 10.4419 14.6839 9.87927 14.1213C9.31666 13.5587 9.00059 12.7956 9.00059 12C9.00059 11.2044 9.31666 10.4413 9.87927 9.87868C10.4419 9.31607 11.2049 9 12.0006 9M17.2506 5.5C16.9191 5.5 16.6011 5.6317 16.3667 5.86612C16.1323 6.10054 16.0006 6.41848 16.0006 6.75C16.0006 7.08152 16.1323 7.39946 16.3667 7.63388C16.6011 7.8683 16.9191 8 17.2506 8C17.5821 8 17.9001 7.8683 18.1345 7.63388C18.3689 7.39946 18.5006 7.08152 18.5006 6.75C18.5006 6.41848 18.3689 6.10054 18.1345 5.86612C17.9001 5.6317 17.5821 5.5 17.2506 5.5Z" fill="#227BF1" />
+                                </svg>
                                 <span class="font-semibold text-[#D9D9D9]">@theboltpr</span>
                             </li>
-                            <li class="text-[#D9D9D9] flex items-center gap-1">
-                                <img src="../assets/social.svg" alt="social" class="w-[34px] h-[24px]">
+                            <li class="text-[#D9D9D9] flex items-center gap-2 text-xs md:text-sm">
+                                <svg width="16" height="16" class="md:w-[18px] md:h-[18px]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.0276 2C14.1526 2.003 14.7236 2.009 15.2166 2.023L15.4106 2.03C15.6346 2.038 15.8556 2.048 16.1226 2.06C17.1866 2.11 17.9126 2.278 18.5496 2.525C19.2096 2.779 19.7656 3.123 20.3216 3.678C20.8303 4.17773 21.2238 4.78247 21.4746 5.45C21.7216 6.087 21.8896 6.813 21.9396 7.878C21.9516 8.144 21.9616 8.365 21.9696 8.59L21.9756 8.784C21.9906 9.276 21.9966 9.847 21.9986 10.972L21.9996 11.718V13.028C22.002 13.7574 21.9944 14.4868 21.9766 15.216L21.9706 15.41C21.9626 15.635 21.9526 15.856 21.9406 16.122C21.8906 17.187 21.7206 17.912 21.4746 18.55C21.2238 19.2175 20.8303 19.8223 20.3216 20.322C19.8219 20.8307 19.2171 21.2242 18.5496 21.475C17.9126 21.722 17.1866 21.89 16.1226 21.94L15.4106 21.97L15.2166 21.976C14.7236 21.99 14.1526 21.997 13.0276 21.999L12.2816 22H10.9726C10.2429 22.0026 9.51312 21.9949 8.78359 21.977L8.58959 21.971C8.3522 21.962 8.11487 21.9517 7.87759 21.94C6.81359 21.89 6.08759 21.722 5.44959 21.475C4.78242 21.2241 4.17804 20.8306 3.67859 20.322C3.16954 19.8224 2.7757 19.2176 2.52459 18.55C2.27759 17.913 2.10959 17.187 2.05959 16.122L2.02959 15.41L2.02459 15.216C2.00616 14.4868 1.99782 13.7574 1.99959 13.028V10.972C1.99682 10.2426 2.00416 9.5132 2.02159 8.784L2.02859 8.59C2.03659 8.365 2.04659 8.144 2.05859 7.878C2.10859 6.813 2.27659 6.088 2.52359 5.45C2.77529 4.7822 3.16982 4.17744 3.67959 3.678C4.17875 3.16955 4.78278 2.77607 5.44959 2.525C6.08759 2.278 6.81259 2.11 7.87759 2.06C8.14359 2.048 8.36559 2.038 8.58959 2.03L8.78359 2.024C9.51278 2.00623 10.2422 1.99857 10.9716 2.001L13.0276 2ZM11.9996 7C10.6735 7 9.40174 7.52678 8.46406 8.46447C7.52638 9.40215 6.99959 10.6739 6.99959 12C6.99959 13.3261 7.52638 14.5979 8.46406 15.5355C9.40174 16.4732 10.6735 17 11.9996 17C13.3257 17 14.5974 16.4732 15.5351 15.5355C16.4728 14.5979 16.9996 13.3261 16.9996 12C16.9996 10.6739 16.4728 9.40215 15.5351 8.46447C14.5974 7.52678 13.3257 7 11.9996 7ZM11.9996 9C12.3936 8.99993 12.7837 9.07747 13.1477 9.22817C13.5117 9.37887 13.8424 9.5998 14.1211 9.87833C14.3997 10.1569 14.6207 10.4875 14.7715 10.8515C14.9224 11.2154 15 11.6055 15.0001 11.9995C15.0002 12.3935 14.9226 12.7836 14.7719 13.1476C14.6212 13.5116 14.4003 13.8423 14.1218 14.121C13.8432 14.3996 13.5126 14.6206 13.1486 14.7714C12.7847 14.9223 12.3946 14.9999 12.0006 15C11.2049 15 10.4419 14.6839 9.87927 14.1213C9.31666 13.5587 9.00059 12.7956 9.00059 12C9.00059 11.2044 9.31666 10.4413 9.87927 9.87868C10.4419 9.31607 11.2049 9 12.0006 9M17.2506 5.5C16.9191 5.5 16.6011 5.6317 16.3667 5.86612C16.1323 6.10054 16.0006 6.41848 16.0006 6.75C16.0006 7.08152 16.1323 7.39946 16.3667 7.63388C16.6011 7.8683 16.9191 8 17.2506 8C17.5821 8 17.9001 7.8683 18.1345 7.63388C18.3689 7.39946 18.5006 7.08152 18.5006 6.75C18.5006 6.41848 18.3689 6.10054 18.1345 5.86612C17.9001 5.6317 17.5821 5.5 17.2506 5.5Z" fill="#227BF1" />
+                                </svg>
                                 <span class="font-semibold text-[#D9D9D9]">@ugcbyboltpr</span>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <hr class="w-full h-2 text-[#1D4E8F]">
-            <div class=" w-full text-center flex flex-col sm:flex-row justify-center sm:justify-between gap-6">
-                <span class="flex items-center gap-4 font-semibold text-xs text-[#D9D9D9]">
-                    © 2025 BoltPR <span>|</span> <span>All rights reserved</span></span>
-                <span class="flex items-center gap-4 font-semibold text-xs text-[#D9D9D9]">
-                    <span>Terms of Services</span>
-                    <span>Privacy Policy</span>
+            <hr class="w-full border-t border-[#1D4E8F] my-4">
+            <div class="w-full flex flex-col sm:flex-row items-center justify-between gap-4 px-4 md:px-8 lg:px-14 pb-6">
+                <span class="flex items-center gap-2 font-semibold text-xs md:text-sm text-[#D9D9D9] text-center sm:text-left">
+                    © 2025 BoltPR <span class="mx-1">|</span> <span>All rights reserved.</span>
                 </span>
+                <div class="flex items-center gap-4 md:gap-6 font-semibold text-xs md:text-sm text-[#D9D9D9]">
+                    <span class="hover:underline cursor-pointer transition-colors">Terms of Services</span>
+                    <span class="hover:underline cursor-pointer transition-colors">Privacy Policy</span>
+                </div>
             </div>
         </div>
     </section>
@@ -268,29 +401,61 @@
         }
     </style>
 
-    <script>
+   <script>
         const menuBtn = document.getElementById("menu-btn");
         const mobileMenu = document.getElementById("mobile-menu");
+        menuBtn.addEventListener("click", () => mobileMenu.classList.toggle("hidden"));
 
-        menuBtn.addEventListener("click", () => {
-            mobileMenu.classList.toggle("hidden");
-        });
+        const container = document.getElementById("testimonial-container");
 
-        const container = document.getElementById('testimonial-container');
-        let scrollSpeed = 0.5;
+        // pixels per second (time-based so it's smooth on any FPS)
+        const speed = 40;
 
-        function autoScroll() {
-            container.scrollLeft += scrollSpeed;
+        let rafId = null;
+        let paused = false;
+        let last = 0;
 
+        function loop(ts) {
+            if (paused) return;
+            if (!last) last = ts;
+            const dt = (ts - last) / 1000; // seconds since last frame
+            last = ts;
+
+            container.scrollLeft += speed * dt;
+
+            // wrap to start when reaching the end
             if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-                container.scrollLeft = 0;
+            container.scrollLeft = 0;
             }
-
-            requestAnimationFrame(autoScroll);
+            rafId = requestAnimationFrame(loop);
         }
 
-        autoScroll();
-    </script>
+        function start() {
+            if (rafId) return;         // prevent multiple loops
+            paused = false;
+            last = 0;
+            rafId = requestAnimationFrame(loop);
+        }
+
+        function stop() {
+            paused = true;
+            if (rafId) cancelAnimationFrame(rafId);
+            rafId = null;
+        }
+
+        // Pause on hover / resume on leave
+        container.addEventListener("mouseenter", stop);
+        container.addEventListener("mouseleave", start);
+
+        // Mobile/touch: pause while touching, resume after
+        container.addEventListener("touchstart", stop, { passive: true });
+        container.addEventListener("touchend", start);
+        container.addEventListener("touchcancel", start);
+
+        // kick things off
+        start();
+        </script>
+
 
 
 </body>
